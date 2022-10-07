@@ -1,0 +1,33 @@
+.main{
+    background-color: aqua;
+    display: flex;
+    border: solid 1px green;
+ }
+ 
+ .container-left-list{
+    padding: 1px;
+    width: 460px;
+    flex: 0 0 460px;
+    background-color: bisque;
+ }
+ 
+ .container-right{
+    margin-right: 6px;
+    margin-left: 4px;
+    background-color: darkgray;
+ }
+ 
+ @media (max-width: 1024px){
+    .main{
+        display: block;
+    }
+    .container-left-list{
+        width: 130px;
+    }
+    .container-right{
+        left: 0;
+        margin: 0;
+        width: 360px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+.header{
+    padding-bottom: 40px;
+    background-color: #EAEAEA;
+}
+
+.header-heading{
+    vertical-align: top;
+}
+
+.main{
+    display: flex;
+}
+
+.main-aside{
+    float: left;
+    padding-left: 15px;
+    padding-right: 5px;
+    line-height: 1.63;
+    max-width: 200px;
+    background-color: #C8FC98;
+}
+
+.section-content{
+    display: block;
+    line-height: 1.5;
+}
+
+.footer{
+    align-items: flex-end;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    text-align: center;
+}

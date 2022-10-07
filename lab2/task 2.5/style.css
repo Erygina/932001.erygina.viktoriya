@@ -1,0 +1,15 @@
+.container-green{
+    color: white;
+    background-color: green;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.container-blue{
+    color: white;
+    background-color: blue;
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px;
+    border: 20px solid blue;
+}

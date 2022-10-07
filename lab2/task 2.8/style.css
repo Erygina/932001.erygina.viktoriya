@@ -1,0 +1,33 @@
+.container-left{
+   width: 200px;
+   flex: 0 0 200px;
+}
+
+.container-left-list{
+    padding: 1px;
+    background-color: bisque;
+}
+
+.container-right{
+    background-color: darkgray;
+}
+
+.footer{
+    position: fixed;
+    background-color: limegreen;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+}
+
+.main{
+    background-color: aqua;
+    display: flex;
+}
+
+@media screen and (max-width: 1024px){
+    .container-right{
+        height: 100%;
+    }
+}

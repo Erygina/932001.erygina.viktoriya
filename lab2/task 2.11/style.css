@@ -1,0 +1,11 @@
+img{
+    margin-left: auto;
+}
+
+.content{
+    background-color: aqua;
+    border: solid 1px green;
+    display: flex;
+    
+    width: 100%;
+}

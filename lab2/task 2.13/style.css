@@ -1,0 +1,45 @@
+.main{
+    background-color: aqua;
+    display: flex;
+    border: solid 1px green;
+ }
+ 
+ .container-left-list{
+    padding: 1px;
+    width: 470px;
+    flex: 0 0 470px;
+    background-color: bisque;
+ }
+ 
+ .container-right{
+    background-color: darkgray;
+ }
+
+ img{
+    float: right;
+    height: 640px;
+    width: auto;
+ }
+
+ .clear{
+    clear: right;
+ }
+ 
+ @media (max-width: 1024px){
+    .container-left-list{
+        width: 130px;
+    }
+    .container-right{
+        left: 0;
+        margin: 0;
+        width: auto;
+        height: 100%;
+    }
+    img{
+        height: 160px;
+        width: auto;
+    }
+    .clear{
+        clear: none;
+    }
+}

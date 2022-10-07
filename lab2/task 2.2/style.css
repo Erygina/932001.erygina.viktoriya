@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+.header{
+    padding-bottom: 40px;
+    background-color: #EAEAEA;
+}
+
+.header-heading{
+    vertical-align: top;
+}
+
+.main{
+    display: flex;
+}
+
+.main-aside-left{
+    float: left;
+    margin-bottom: auto;
+    padding: 0px 10px 10px 10px;
+    line-height: 1.5;
+    max-width: 25%;
+    flex: 0 0 25%;  /*чтобы блок не сужался из-за flex*/
+    background-color: #C8FC98;
+}
+
+.section-content{
+    display: block;
+    line-height: 1.5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-aside-right{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.63;
+    max-width: 200px;
+    flex: 0 0 200px;  /*чтобы блок не сужался из-за flex*/
+    background-color: #FDE95E;
+}
+
+.footer{
+    align-items: flex-end;
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    text-align: center;
+}
