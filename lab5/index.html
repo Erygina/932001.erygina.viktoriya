@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task №5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <ul class="list">
+            <li class="item">
+                <h2 class="item-heading">
+                    Новость 1
+                </h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Betae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?
+                <div class="item-btn">
+                    <button onclick="over('first')" class="btn">
+                        Открыть всплывающее окно
+                    </button>
+                </div>
+            </li>
+            <li class="item">
+                <h2 class="item-heading">
+                    Новость 2
+                </h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Betae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?
+                <div class="item-btn">
+                    <button onclick="over('second')" class="btn">
+                        Открыть всплывающее окно
+                    </button>
+                </div>
+            </li>
+            <li class="item">
+                <h2 class="item-heading">
+                    Новость 3
+                </h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Betae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?
+                <div class="item-btn">
+                    <button onclick="over('third')" class="btn">
+                        Открыть всплывающее окно
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="container-over" id="first">
+        <div class="container-close">
+            <button onclick="closeNew('first')" class="close-btn">
+                Close
+            </button>
+        </div>
+        <h2 class="container-over-heading">
+            Новость 1
+        </h2>
+        Новость 1:Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
+    </div>
+    <div class="container-over" id="second">
+        <div class="container-close">
+            <button onclick="closeNew('second')" class="close-btn">
+                Close
+            </button>
+        </div>
+        <h2 class="container-over-heading">
+            Новость 2
+        </h2>
+        Новость 1:Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
+    </div>
+    <div class="container-over" id="third">
+        <div class="container-close">
+            <button onclick="closeNew('third')" class="close-btn">
+                Close
+            </button>
+        </div>
+        <h2 class="container-over-heading">
+            Новость 3
+        </h2>
+        Новость 1:Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
+    </div>
+</body>
+</html>
