@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main{
+    margin: 0 auto;
+    width: 840px;
+}
+
+.main-list-btn{
+    margin: 0;
+    
+}
+
+button{
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 2px black solid;
+    padding: 8px;
+    width: calc(840px/3);
+}
+
+.main-item-img{
+    height: 470px;
+}
+
+#main-item-cat{
+    background-color: blue;
+    min-width: 800px;
+}
+
+#image-cat{
+    margin: 20px;
+    width: 560px;
+    height: auto;
+}
+
+#main-item-dog{
+    background-color: green;
+    min-width: 40px;
+}
+
+#image-dog{
+    margin: 20px;
+    width: 560px;
+    display: none;
+}
