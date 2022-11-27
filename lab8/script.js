@@ -46,12 +46,11 @@ function addElement(){
     
     li.appendChild(removeBtn);
     removeBtn.addEventListener('click', (event)=>{
-        help = parseInt(li.id);
-        idHelp = (help != liClass.length - 1) ? help + 1 + '': help + '';
-        liHelp = document.getElementById(idHelp);
-        li.id = idHelp;
-        liHelp.id = help + '';
         ul.removeChild(li);
+        element = document.querySelectorAll('li');
+        Array.from(element).forEach(function(ele, i){
+            ele.setAttribute("id", "" + i)
+        })
     })
 }
 
