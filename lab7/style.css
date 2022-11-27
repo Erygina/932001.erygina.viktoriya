@@ -5,8 +5,8 @@ p{
 .triangle{
     position: absolute;
     display: inline-block;
-	border: 60px solid transparent;
-	border-bottom: 60px solid blue;
+    border: 60px solid transparent;
+    border-bottom: 60px solid blue;
     opacity: 0.8;
 }
 
