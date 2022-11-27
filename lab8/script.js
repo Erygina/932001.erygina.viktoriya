@@ -34,7 +34,7 @@ function addElement(){
     var liClass = document.getElementsByClassName('item');
     downBtn.addEventListener('click', (event)=>{
         help = parseInt(li.id);
-        idHelp = (help != liClass.length) ? help + 1 + '': help + '';
+        idHelp = (help != liClass.length - 1) ? help + 1 + '': help + '';
         liHelp = document.getElementById(idHelp);
         li.parentNode.insertBefore(liHelp, li);
         li.id = idHelp;
@@ -46,6 +46,11 @@ function addElement(){
     
     li.appendChild(removeBtn);
     removeBtn.addEventListener('click', (event)=>{
+        help = parseInt(li.id);
+        idHelp = (help != liClass.length - 1) ? help + 1 + '': help + '';
+        liHelp = document.getElementById(idHelp);
+        li.id = idHelp;
+        liHelp.id = help + '';
         ul.removeChild(li);
     })
 }
