@@ -1,0 +1,119 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-image1{
+    background-image: url("curtain.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    transition: all 0.1s;
+    background-size: cover;
+    background-position:center bottom;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+.raising-curtain:hover{
+    translate: 0 -5%;
+    transition-duration: 0.2s;
+}
+
+.disappear-curtain{
+    top: -100%;
+    transition: all 2s;
+}
+
+.lamp{
+    background-image: url("lamp.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    margin: 30px auto;
+    z-index: 6;
+}
+
+.light{
+    position: absolute;
+    pointer-events: none;
+    top: 115px;
+    opacity: 0;
+    height: 0; 
+    width: 82px;
+    border-bottom: calc(100vh - 200px) solid rgb(253, 253, 109);
+    border-left: 373px solid transparent;
+    border-right: 370px solid transparent;
+    transition: opacity 0.2s;
+    z-index: 6;
+}
+.light-on{
+    opacity: 0.5;
+    transition-duration: 0.2s;
+}
+
+.focus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+}
+
+.witch{
+    background-image: url("witch.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 4;
+    height: 350px;
+    width: 350px;
+}
+
+.focus-realization{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.animals{
+    position: relative;
+    top: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    transition: top 0.5s;
+    z-index: 4;
+}
+
+.rabbit{
+    background-image: url("rabbit.png");
+}
+
+.bird{
+    background-image: url("bird.png");
+}
+
+.hat{
+    background-image: url("hat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(180deg);
+    height: 160px;
+    width: 160px;
+    z-index: 4;
+    position: relative;
+    margin-bottom: 100px;
+}
+

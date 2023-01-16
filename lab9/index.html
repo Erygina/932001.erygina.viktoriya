@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 9</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-input"><input id="result" type="text" placeholder="0" size="51" onkeydown="return false" > <span id="input-span"></span>  </input> </div>
+        <table>
+            <tr>
+                <td><input onclick="add_symbol(this.value)" type="button" value="7" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="8" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="9" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value=" / " class="input-btn btn"></td>
+                <td><input onclick="clear_text()" type="button" value="C" class="btn"></input></td>
+            </tr>
+            <tr>
+                <td><input onclick="add_symbol(this.value)" type="button" value="4" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="5" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="6" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value=" * " class="input-btn btn"></td>
+                <td><button onclick="clear_symbol()" class="btn">&lt;-</button></td>
+            </tr>
+            <tr>
+                <td><input onclick="add_symbol(this.value)" type="button" value="1" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="2" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="3" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value=" - " class="input-btn btn"></td>
+                <td rowspan="2"><button onclick="equally()" id="equally" class="btn">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input onclick="add_symbol(this.value)" type="button" value="0" id="zero" class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value="." class="input-btn btn"></td>
+                <td><input onclick="add_symbol(this.value)" type="button" value=" + " class="input-btn btn"></td>
+            </tr>
+        </table>
+</body>
+</html>
