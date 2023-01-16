@@ -1,0 +1,47 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.navbar {
+    background: #181717 !important;
+    padding-left: 50px;
+}
+
+a.nav {
+    color: #e5e5e5;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100vw - 100px);
+    white-space: nowrap;
+    line-height: 60px;
+    color: black;
+}
+
+.container-foot {
+    margin-left: 10px;
+}
+
+.container {
+    margin-left: 60px;
+}
